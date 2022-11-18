@@ -8,7 +8,7 @@ const Course = () => {
   return (
     <section>
       <div>
-        <ul className="flex border-b-2 border-solid border-gray-200 gap-1">
+        <ul className="flex flex-nowrap border-b-2 border-solid border-gray-200 gap-1">
           <li
             onClick={() => setTab("Python")}
             className={`py-3 px-5 hover:cursor-pointer hover:bg-gray-100 rounded-t-md ${
@@ -31,7 +31,7 @@ const Course = () => {
               tab === "webDev" ? "bg-gray-100" : ""
             }`}
           >
-            Web Development
+            Web Dev
           </li>
         </ul>
       </div>

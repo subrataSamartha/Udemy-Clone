@@ -5,7 +5,7 @@ const FearuredSection = () => {
     <section className="bg-gray-100 py-16">
       <div className="max-w-[1340px] mx-auto px-6">
         <h2 className="text-2xl font-bold">Featured topic by category</h2>
-        <div className="flex justify-between py-10">
+        <div className="flex flex-row justify-between py-10 flex-wrap">
           {/* Development list */}
           <div className="flex flex-col gap-6">
             <h3 className="text-xl font-medium">Development</h3>
@@ -63,7 +63,7 @@ const FearuredSection = () => {
             </ul>
           </div>
           {/* IT and Softweare list */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-6 md:mt-0">
             <h3 className="text-xl font-medium">IT and Software</h3>
             <ul className="flex flex-col gap-4">
               <li>
@@ -91,7 +91,7 @@ const FearuredSection = () => {
             </ul>
           </div>
           {/* Design list */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 mt-6 md:mt-0">
             <h3 className="text-xl font-medium">Design</h3>
             <ul className="flex flex-col gap-4">
               <li>
@@ -119,7 +119,7 @@ const FearuredSection = () => {
             </ul>
           </div>
         </div>
-        <button className="w-max py-2 px-2 font-bold border border-solid border-gray-800">
+        <button className="w-full md:w-max py-2 px-2 font-bold border border-solid border-gray-800 bg-black md:bg-white text-white md:text-black">
           Explore more topics
         </button>
       </div>
